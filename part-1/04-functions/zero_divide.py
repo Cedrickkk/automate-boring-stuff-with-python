@@ -4,8 +4,11 @@ def main() -> None:
     print(spam(0))
     print(spam(4))
 
-def spam(divide_by: float) -> float:
-    return 42 / divide_by
+def spam(divide_by: float) -> float | None:
+    try:
+        return 42 / divide_by
+    except ZeroDivisionError:
+        print("Error: Invalid argument.")
 
 if __name__ == "__main__":
     main()
