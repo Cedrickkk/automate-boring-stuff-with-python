@@ -7,5 +7,9 @@ def main() -> None:
     nums.sort() 
     print(nums)
 
+    # reverse sort
+    spam.sort(reverse=True)
+    print(spam)
+
 if __name__ == "__main__":
     main()
