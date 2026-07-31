@@ -1,6 +1,6 @@
 import logging
 
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename="factorial_log.txt",level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def main() -> None:
     logging.debug("Start of program")
