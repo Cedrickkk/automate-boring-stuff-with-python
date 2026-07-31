@@ -1,7 +1,11 @@
 from typing import Any
 
 def main() -> None:
-    # Indexes
+    """
+    Indices
+
+    Get an item from a list using index
+    """
     spam = ["cat", "bat", "rat", "elephant"]
 
     print(spam[0])
