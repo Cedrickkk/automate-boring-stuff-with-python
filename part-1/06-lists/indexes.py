@@ -1,6 +1,7 @@
 from typing import Any
 
 def main() -> None:
+    # Indexes
     spam = ["cat", "bat", "rat", "elephant"]
 
     print(spam[0])
