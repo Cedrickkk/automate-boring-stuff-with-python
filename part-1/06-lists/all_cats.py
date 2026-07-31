@@ -7,7 +7,7 @@ def main() -> None:
         if name == "":
             break
 
-        cats += [name]
+        cats.append(name)
 
     for cat in cats:
         print(cat)
