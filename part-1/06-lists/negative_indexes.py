@@ -1,5 +1,9 @@
 def main() -> None:
-    # Negative Indexes
+    """
+    Negative Indices
+
+    Gets an item from the end of the list using a negative index
+    """
     spam: list[str] = ["cat", "bat", "rat", "elephant"]
     print(spam[-1]) # last index
     print(spam[-3]) # third to the last index
