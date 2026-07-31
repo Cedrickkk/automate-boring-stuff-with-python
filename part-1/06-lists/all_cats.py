@@ -2,7 +2,7 @@ def main() -> None:
     cats: list[str] = []
 
     while True:
-        name = input(f"Enter the name of cat {len(cats) + 1}: ")
+        name = input(f"Enter the name of cat {len(cats) + 1} (or enter nothing to stop): ")
 
         if name == "":
             break
