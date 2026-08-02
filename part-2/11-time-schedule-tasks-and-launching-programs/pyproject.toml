@@ -1,0 +1,7 @@
+[project]
+name = "11-time-schedule-tasks-and-launching-programs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
