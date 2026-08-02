@@ -9,3 +9,6 @@ dist/
 
 # Virtual environments
 .venv/
+
+# Github 
+.github/
