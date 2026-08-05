@@ -20,7 +20,7 @@ def make_next_row(drip_counters: list[int]) -> str:
 
     for i, remaining in enumerate(drip_counters):
         if remaining == 0 and random() < NEW_DRIP_CHANCE:
-            drip_counters[i] = randint(DRIP_MAX_LENGTH, DRIP_MAX_LENGTH)
+            drip_counters[i] = randint(DRIP_MIN_LENGTH, DRIP_MAX_LENGTH)
 
         if drip_counters[i] == 0:
             characters_this_row.append(" ")
