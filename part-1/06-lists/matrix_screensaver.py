@@ -26,6 +26,7 @@ def make_next_row(drip_counters: list[int]) -> str:
             characters_this_row.append(" ")
         else:
             characters_this_row.append(choice(CHARACTERS))
+            drip_counters[i] -= 1
 
     return "".join(characters_this_row)
 
