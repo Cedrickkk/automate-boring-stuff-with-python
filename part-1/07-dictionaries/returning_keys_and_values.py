@@ -27,6 +27,12 @@ def main() -> None:
     for k, v in spam.items():
         print(k, v)
 
+    # getting a value with .get() method
+    picnic_items: dict[str, int] = {"apples": 5, "cups": 2, "banana": 10}
+    print(f"I am bringing {picnic_items.get("cups", 0)} cups.")
+    print(f"I am bringing {picnic_items.get("eggs", 0)} eggs.")
+    # print(f"I am bringing {picnic_items['eggs']} eggs.") -> will throw an error
+    
     
 if __name__ == "__main__":
     main()
