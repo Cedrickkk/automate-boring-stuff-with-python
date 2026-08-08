@@ -23,6 +23,10 @@ def main() -> None:
         print(i)
         print(type(i) is tuple)
 
+    # multiple assignment in dictionary items
+    for k, v in spam.items():
+        print(k, v)
+
     
 if __name__ == "__main__":
     main()
